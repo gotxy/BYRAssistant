@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<style type="text/css">
+			body {
+				background-color: #f2f6f9;
+				margin: 0;
+				padding: 5px;
+				color: #555;
+			}
+			fieldset {
+				width: 160px;
+				border: 1px solid #666666;
+			}
+			legend {
+				color: #224499;
+			}
+			.option-item {
+				display: block;
+				margin: 10px 0;
+			}
+		</style>
+	</head>
+
+	<body>
+		<fieldset>
+			<legend>设置</legend>
+			<span class="option-item">
+				<input type="checkbox" id="auto-paging" />
+				<label for="auto-paging">启用自动加载</label>
+			</span>
+			<span class="option-item">
+				<input type="checkbox" id="blacklist" />
+				<label for="blacklist">启用黑名单</label>
+			</span>
+			<button id="save" type="button">保存</button>
+			<button id="open-option" type="button">其它选项</button>
+		</fieldset>
+		
+		<script type="text/javascript" src="../js/jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="../js/popup.js"></script>
+	</body>
+</html>
